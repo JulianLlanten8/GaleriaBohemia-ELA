@@ -1,4 +1,4 @@
-# prueba2023-1-galer-a-bohemia-ela
+# galeria-bohemia-ela
 
 This template should help get you started developing with Vue 3 in Vite.
 
