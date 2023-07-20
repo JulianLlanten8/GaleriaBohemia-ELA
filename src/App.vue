@@ -3,10 +3,18 @@
     <SectionHeader />
     <Section1 />
     <Section2 />
+    <Section3 />
+    <Section4 />
   </main>
 </template>
 <script setup>
-import { SectionHeader, Section1, Section2 } from './components'
+import {
+  SectionHeader,
+  Section1,
+  Section2,
+  Section3,
+  Section4
+} from '@/components'
 </script>
 
 <style scoped lang="scss">

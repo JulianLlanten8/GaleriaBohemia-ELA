@@ -1,6 +1,6 @@
 <template>
   <section ref="carrusel" id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
+    <div class="carousel-indicators ">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
         class="active btn rounded-circle" aria-current="true" aria-label="Slide 1">
       </button>
@@ -13,22 +13,38 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/landing/slide01/recurso5.jpg" class="d-block w-100" alt="recurso5">
+        <img :src="resolveImg(img1)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso5">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/landing/slide01/recurso6.jpg" class="d-block w-100" alt="recurso6">
+        <img :src="resolveImg(img2)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso6">
       </div>
       <div class="carousel-item">
-        <img src="@/assets/landing/slide01/recurso7.jpg" class="d-block w-100" alt="recurso7">
+        <img :src="resolveImg(img3)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso7">
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-// hacer mover el carousel
 import { onMounted, ref } from 'vue'
 import { Carousel } from 'bootstrap'
+
+defineProps({
+  img1: {
+    type: String,
+    required: true
+  },
+  img2: {
+    type: String,
+    required: true
+  },
+  img3: {
+    type: String,
+    required: true
+  }
+})
+
+const resolveImg = (img) => `src/assets/landing/${img}`;
 
 const carrusel = ref(null)
 
