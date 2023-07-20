@@ -1,0 +1,19 @@
+@import "bootstrap/scss/bootstrap";
+
+.brown{
+  background-color: #efdbbe;
+}
+
+.card-border-radius-none{
+  border-radius: 0;
+  border: 0;
+}
+
+.btn-ela{
+  background-color: #c96053;
+  //configura el hover del mismo color con sombra negra
+  &:hover{
+    background-color: #c96053;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.5);
+  }
+}
