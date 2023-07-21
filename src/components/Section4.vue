@@ -1,5 +1,5 @@
 <template>
-  <section class="container-fluid mt-5">
+  <section class="container-fluid" style="max-height: 1070px;">
     <article class="row d-flex align-items-center justify-content-center">
       <figure class="card g-0 card-border-radius-none brown" style="max-width: 1000px; height: 60vh;">
         <div class="d-flex flex-column align-items-center justify-content-center">
