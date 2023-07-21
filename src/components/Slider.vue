@@ -44,11 +44,15 @@ defineProps({
   }
 })
 
-const resolveImg = (img) => `src/assets/landing/${img}`;
 
 const carrusel = ref(null)
 
+const resolveImg = (img) => {
+  return `src/assets/landing/${img}`
+}
+
 onMounted(() => {
+
   if (carrusel.value) {
     setInterval(() => {
       const carousel = new Carousel(carrusel.value)

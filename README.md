@@ -1,6 +1,6 @@
 # Galeria-bohemia-ela
 
-This template should help get you started developing with Vue 3 in Vite.
+![Alt text](<public/Captura web_21-7-2023_16330_localhost.jpeg>)
 
 ## Recommended IDE Setup
 

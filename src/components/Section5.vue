@@ -5,7 +5,8 @@
         <div class="col d-flex justify-content-center">
           <div class="row" style="max-width: 700px; position: static;">
 
-            <Slider img1="slide02/recurso14.jpg" img2="slide02/recurso15.jpg" img3="slide02/recurso16.jpg" />
+            <Slider class="h-100" img1="slide02/recurso14.jpg" img2="slide02/recurso15.jpg"
+              img3="slide02/recurso16.jpg" />
 
           </div>
         </div>
@@ -32,5 +33,4 @@
 import { Slider } from '@/components'
 </script>
 
-<style lang=" scss" scoped>
-    </style>
+<style scoped></style>
