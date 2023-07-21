@@ -16,7 +16,7 @@
       <section class="row" style="position: relative;top:-11rem;">
         <div class="col d-flex align-items-center justify-content-center">
           <div class="row d-flex justify-content-center" style="max-width: 700px;">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-4 position-relative">
               <picture class="d-flex align-items-center justify-content-center">
                 <img src="@/assets/landing/recurso11.jpg" class="img-fluid m-3" alt="recurso 3">
               </picture>
@@ -24,19 +24,12 @@
                 <img src="@/assets/landing/recurso13.jpg" class="img-fluid m-3" alt="recurso 3">
               </picture>
             </div>
-            <div class="col-6">
-              <!-- <picture class="d-flex">
-                <img src="@/assets/landing/recurso12.jpg" class="img-fluid ml-3 mt-n3" alt="recurso 3">
-              </picture>
-
-              <figure class="d-flex flex-column justify-content-center align-items-center">
-                
-              </figure> -->
+            <div class="col-lg-6 col-md-4 position-relative">
               <picture class="d-flex align-items-center justify-content-start">
                 <img src="@/assets/landing/recurso12.jpg" class="img-fluid m-3" alt="recurso 3">
               </picture>
               <div class="d-flex flex-column justify-content-center align-items-center m-3">
-                <p class="fs-4 fw-normal text-left p-2">
+                <p class="fs-4 fw-normal text-left p-2" style="min-width: 18ch;">
                   Las texturas, fibras
                   naturales y efecto cuero
                   en tono crudo y tierra son

@@ -1,11 +1,13 @@
 <template>
-  <main class="container-fluid m-0 slider-container">
+  <main class="container-fluid">
     <SectionHeader />
     <Section1 />
     <Section2 />
     <Section3 />
     <Section4 />
     <Section5 />
+    <Section6 />
+    <Section7 />
   </main>
 </template>
 <script setup>
@@ -15,7 +17,9 @@ import {
   Section2,
   Section3,
   Section4,
-  Section5
+  Section5,
+  Section6,
+  Section7,
 } from '@/components'
 </script>
 

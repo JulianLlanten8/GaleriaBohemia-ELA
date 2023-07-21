@@ -1,5 +1,5 @@
 <template>
-  <section class="container-fluid">
+  <section class="container-fluid" style="max-height: 1200px;">
     <article class="row d-flex align-items-center justify-content-center">
       <section class="row">
         <div class="col d-flex justify-content-center">
