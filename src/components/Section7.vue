@@ -1,7 +1,7 @@
 <template>
   <section class="container-fluid">
-    <article class="row">
-      <div class="col">
+    <article class="row mt-4">
+      <div class="col h-20">
         <figure class="row d-flex align-items-start justify-content-center">
           <section class="col-md-4">
             <img src="@/assets/landing/recurso20.jpg" class="img-fluid" alt="hermosa ropa">
@@ -32,12 +32,12 @@
             </div>
           </section>
         </figure>
-
-        <div class="brown h-50" style="height: 95rem; position: relative;top: -50rem; z-index: -1;">
+        <div class="container brown" style="height: 50rem; position: relative;top: -50rem; z-index: -1;">
           <div class="d-flex flex-column align-items-center j5ustify-content-center ">
 
           </div>
         </div>
+
 
       </div>
     </article>
