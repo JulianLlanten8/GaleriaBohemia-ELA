@@ -22,5 +22,5 @@
 </template>
 
 <script setup>
-import { Button, Slider, MiniCard } from '@/components'
+import { Slider, MiniCard } from '@/components'
 </script>

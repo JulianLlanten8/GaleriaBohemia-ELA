@@ -13,21 +13,21 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img :src="resolveImg(img1)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso5">
+        <img :src="getImageUrl(img1)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso5">
       </div>
       <div class="carousel-item">
-        <img :src="resolveImg(img2)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso6">
+        <img :src="getImageUrl(img2)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso6">
       </div>
       <div class="carousel-item">
-        <img :src="resolveImg(img3)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso7">
+        <img :src="getImageUrl(img3)" class="d-block object-fit-cover w-100 img-fluid" alt="recurso7">
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
-import { Carousel } from 'bootstrap'
+import { onMounted, ref } from 'vue';
+import { Carousel } from 'bootstrap';
 
 defineProps({
   img1: {
@@ -44,12 +44,12 @@ defineProps({
   }
 })
 
+const getImageUrl = (img) => {
+  const u = new URL(`../assets/landing/${img}`, import.meta.url).href
+  return u;
+}
 
 const carrusel = ref(null)
-
-const resolveImg = (img) => {
-  return `src/assets/landing/${img}`
-}
 
 onMounted(() => {
 

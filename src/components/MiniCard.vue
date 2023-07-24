@@ -24,7 +24,8 @@ defineProps({
 })
 
 const resolveUrl = (url) => {
-  return `src/assets/${url}`;
+  const u = new URL(`../assets/${url}`, import.meta.url).href
+  return u;
 }
 
 
